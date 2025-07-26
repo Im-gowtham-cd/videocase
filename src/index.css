@@ -7,7 +7,7 @@
 
 :root {
     --text: #7B4019;
-    --bg: #000000;
+    --bg: #ffffff;
     /* --bg: #e350cb; */
     --textbox: #ffbb46;
     --color: #ffcf0d;
@@ -94,6 +94,8 @@ nav::after {
     border-radius: 20px;
     overflow-y: hidden;
     /* box-shadow: 0 0 40px 0 var(--color); */
+    box-shadow: 0 0 10px 1px black;
+
 }
 
 .video-detail {
