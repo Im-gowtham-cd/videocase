@@ -94,7 +94,7 @@ nav::after {
     border-radius: 20px;
     overflow-y: hidden;
     /* box-shadow: 0 0 40px 0 var(--color); */
-    box-shadow: 0 0 10px 1px black;
+    box-shadow: 0 0 10px 1px var(--text);
 
 }
 
