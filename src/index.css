@@ -92,7 +92,7 @@ nav::after {
     background: var(--textbox);
     position: relative;
     border-radius: 20px;
-    overflow: hidden;
+    overflow-y: hidden;
     /* box-shadow: 0 0 40px 0 var(--color); */
 }
 
@@ -184,7 +184,7 @@ nav::after {
 @media (max-width: 1024px) {
     nav {
         gap: 10%;
-        flex-direction: column;
+        /* flex-direction: column; */
         height: auto;
         padding: 10px 0;
         text-align: center;
@@ -237,16 +237,20 @@ nav::after {
 
 @media (max-width: 600px) {
     nav {
-        flex-direction: column;
-        gap: 15px;
+        flex-direction: row;
+        gap: 26px;
+    }
+
+    .video-case{
+        font-size: 30px;
     }
 
     .gotamu-exe {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .connect {
-        font-size: 14px;
+        font-size: 10px;
         padding: 3px 12px;
     }
 
@@ -266,7 +270,7 @@ nav::after {
     }
 
     .video-size {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 5px;
     }
 
