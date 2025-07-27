@@ -519,6 +519,10 @@ nav::after {
         font-size: 14px;
         width: 90%;
     }
+    .videohead{
+        font-size: 55px;
+        justify-content: center;
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
