@@ -7,7 +7,22 @@ export default function Home() {
     return (
         <>
             <div className="videobox">
-                <center className='videohead'>Video</center>
+                <center className='videohead'>April 2025</center>
+                <div className="video">
+                    <img src={i3} alt="" srcset="" />
+                    <span className="video-number">1</span>
+                    <div className="video-detail">
+                        <span className="video-title">New West Lyric</span>
+                        <span className="video-size">
+                            <p>1080p</p>
+                            <p>Capcut</p>
+                            <p>59.1MB</p>
+                        </span>
+                        <a href="https://www.playbook.com/s/im-gowtham-cd/Fmc1VAHKxU5qZt4eNB5oXtGm?assetToken=LdsDr89bzwBurvHQ15EY1ZTD" className="video-download">Download</a>
+                    </div>
+                </div>
+
+                <center className='videohead'>May 2025</center>
                 <div className="video">
                     <img src={i1} alt="" srcset="" />
                     <span className="video-number">1</span>
@@ -35,22 +50,11 @@ export default function Home() {
                         <a href="https://www.playbook.com/s/im-gowtham-cd/ZdDZzUoFzL4BMZT5YJDiivgG?assetToken=ZX6MFeqYc2HT1AXj3rGKX5AM" className="video-download">Download</a>
                     </div>
                 </div>
-
-                <div className="video">
-                    <img src={i3} alt="" srcset="" />
-                    <span className="video-number">3</span>
-                    <div className="video-detail">
-                        <span className="video-title">New West Lyric</span>
-                        <span className="video-size">
-                            <p>1080p</p>
-                            <p>Capcut</p>
-                            <p>59.1MB</p>
-                        </span>
-                        <a href="https://www.playbook.com/s/im-gowtham-cd/Fmc1VAHKxU5qZt4eNB5oXtGm?assetToken=LdsDr89bzwBurvHQ15EY1ZTD" className="video-download">Download</a>
-                    </div>
-                </div>
-
             </div>
+
+            <footer className='footer'>
+                <p>© 2025 Gotamu.exe</p>
+            </footer>
         </>
     );
 }
