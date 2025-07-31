@@ -26,7 +26,7 @@ export default function Home() {
         },
         {
             key: 2,
-            year: 'May 2025',
+            year: 'Aug 2025',
             image: i2,
             title: 'IV',
             resolution: '1080p',
@@ -92,7 +92,7 @@ export default function Home() {
     const cardcontainer = cards.map((c, i) => {
         if (c.year !== temp1) {
             temp = 1;
-            // return <Card temp={temp} year={c.year} key={i} image={c.image} title={c.title} resolution={c.resolution} type={c.type} size={c.size} link={c.link} />
+         // return <Card temp={temp} year={c.year} key={i} image={c.image} title={c.title} resolution={c.resolution} type={c.type} size={c.size} link={c.link} />
         }
         else {
             temp = 0;
