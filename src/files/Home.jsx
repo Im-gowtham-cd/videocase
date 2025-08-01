@@ -26,16 +26,6 @@ export default function Home() {
         },
         {
             key: 2,
-            year: 'Aug 2025',
-            image: i2,
-            title: 'IV',
-            resolution: '1080p',
-            type: 'Capcut',
-            size: '13.9MB',
-            link: 'https://www.playbook.com/s/im-gowtham-cd/ZdDZzUoFzL4BMZT5YJDiivgG?assetToken=ZX6MFeqYc2HT1AXj3rGKX5AM',
-        },
-        {
-            key: 3,
             year: 'May 2025',
             image: i2,
             title: 'IV',
@@ -44,47 +34,6 @@ export default function Home() {
             size: '13.9MB',
             link: 'https://www.playbook.com/s/im-gowtham-cd/ZdDZzUoFzL4BMZT5YJDiivgG?assetToken=ZX6MFeqYc2HT1AXj3rGKX5AM',
         },
-        {
-            key: 4,
-            year: 'May 2025',
-            image: i2,
-            title: 'IV',
-            resolution: '1080p',
-            type: 'Capcut',
-            size: '13.9MB',
-            link: 'https://www.playbook.com/s/im-gowtham-cd/ZdDZzUoFzL4BMZT5YJDiivgG?assetToken=ZX6MFeqYc2HT1AXj3rGKX5AM',
-        },
-        {
-            key: 5,
-            year: 'June 2025',
-            image: i2,
-            title: 'IV',
-            resolution: '1080p',
-            type: 'Capcut',
-            size: '13.9MB',
-            link: 'https://www.playbook.com/s/im-gowtham-cd/ZdDZzUoFzL4BMZT5YJDiivgG?assetToken=ZX6MFeqYc2HT1AXj3rGKX5AM',
-        },
-        {
-            key: 6,
-            year: 'June 2025',
-            image: i2,
-            title: 'IV',
-            resolution: '1080p',
-            type: 'Capcut',
-            size: '13.9MB',
-            link: 'https://www.playbook.com/s/im-gowtham-cd/ZdDZzUoFzL4BMZT5YJDiivgG?assetToken=ZX6MFeqYc2HT1AXj3rGKX5AM',
-        },
-        {
-            key: 7,
-            year: 'July 2025',
-            image: i2,
-            title: 'IV',
-            resolution: '1080p',
-            type: 'Capcut',
-            size: '13.9MB',
-            link: 'https://www.playbook.com/s/im-gowtham-cd/ZdDZzUoFzL4BMZT5YJDiivgG?assetToken=ZX6MFeqYc2HT1AXj3rGKX5AM',
-        }
-
     ]
 
     var temp = 1;
